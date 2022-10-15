@@ -1,0 +1,27 @@
+.weather-container{
+    display: flex;
+    margin: 20px;
+}
+.navbar{
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-size: 50px;
+}
+
+.text-dark{
+    font-size: 20px;
+}
+
+.card-body{
+    margin: 10px;
+}
+
+.weather-data{
+    width: 100%;
+}
+.historyBtn{
+    margin-top: 10px;
+    width: 100%;
+}

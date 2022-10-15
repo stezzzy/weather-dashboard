@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Weather Search Dashboard"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<title>Weather Dashboard</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+<nav class="navbar bg-primary">
+    <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
+</nav>
+
+
+<!-- Search field -->
+<div class="weather-container">
+  <div class="search-history">
+    <h1 class="text-dark">Input City Name:</h1>
+    <input class="city-name-input" type="text" placeholder="Enter city name">
+    <button class="btn bg-primary search-button">Search</button>
+    <div id="searchHistory"></div>
+  </div>
+  <div class="weather-data">
+
+
+
+  <!-- Weather cards -->
+  <div class="card current-day">
+    <div class="card-body">
+      <h5 class="card-date"><span class="current-date">Location & Date</span><img class="current-image" src=""></h5>
+        <p class="card-temp">Temp: <span class="current-temp"></span></p>
+        <p class="card-wind">Wind: <span class="current-wind"></span></p>
+        <p class="card-humidity">Humidity: <span class="current-humidity"></span></p>
+        <p class="uv-index"><span class="current-uv" id="current-uv"></span></p>
+    </div>
+  </div>
+
+  <!-- Rest of week weather cards -->
+
+
+    <div class="card-deck temp-cards">
+    </div>
+  </div>
+</div>
+<script src="./assets/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
